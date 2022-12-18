@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    width: 1245px;
+    height: 666px;
+}
+
+#opening{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+    animation-duration: 1.4s;
+    animation-iteration-count: calc(1);
+    animation-fill-mode: forwards;
+    animation-name: opening;
+    animation-direction: reverse;
+    animation-delay: 0.15s;
+}
+
+@keyframes opening{
+    from {top: -1100px;}
+    to { top: 0px;}
+}
+.hello{
+    position: relative;
+    top: 90%;
+    left: 50px;
+    font-size: 2vw;
+}
+
+.P{
+        position: relative;
+        /* top: 29%;
+        left: 45%; */
+        font-size:20vw;
+        /* font-weight: bold; */
+        font-family: 'Archivo Black', sans-serif;
+        animation-duration: 1.4s;
+        animation-iteration-count: calc(1);
+        animation-fill-mode: forwards;
+        animation-name: P;
+        animation-direction: reverse;
+        animation-delay: 0.15s;
+    }
+@keyframes P{
+    from {top: -1100px;}
+    to { top: 0px;}
+}
+.R{
+        position: relative;
+        /* top: 29%;
+        left: 45%; */
+        font-size: 20vw;
+        font-weight: bold;
+        font-family: 'Archivo Black', sans-serif;
+        animation-duration: 1.2s;
+        animation-iteration-count: calc(1);
+        animation-fill-mode: forwards;
+        animation-name: R;
+        animation-direction: reverse;
+        animation-delay: 0.15s;
+    }
+    @keyframes R{
+        from {top: -1100px;}
+        to { top: 0px;}
+    }
+.L{
+    
+        position: relative;
+        /* top: 29%;
+        left: 45%; */
+        font-size: 20vw;
+        font-weight: bold;
+        font-family: 'Archivo Black', sans-serif;
+        animation-duration: 1.3s;
+        animation-iteration-count: calc(1);
+        animation-fill-mode: forwards;
+        animation-name: L;
+        animation-direction: reverse;
+        animation-delay: 0.15s;
+    }
+    @keyframes L{
+        from {top: -1100px;}
+        to { top: 0px;}
+    }
+.PRL{
+    position: absolute;
+    display: flex; justify-content:end;
+    font-size: 10px;
+    font-weight: bold;
+    top: 50%;
+    right: 1px;
+  }
+  
+  .topbar{
+    position: fixed;
+    display:flex; justify-content:  space-between;
+    border: 1px solid bisque
+}
+    .mainmenu{
+        position: relative;
+        display: flex; justify-content: center;
+}
+
+
+
+
+
+
+
