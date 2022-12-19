@@ -9,7 +9,7 @@
     width: 100%;
     height: 100vh;
     background-color: bisque;
-    animation-duration: 1.4s;
+    animation-duration: 1.9s;
     animation-iteration-count: calc(1);
     animation-fill-mode: forwards;
     animation-name: opening;
@@ -35,7 +35,7 @@
         font-size:20vw;
         /* font-weight: bold; */
         font-family: 'Archivo Black', sans-serif;
-        animation-duration: 1.4s;
+        animation-duration: 1.9s;
         animation-iteration-count: calc(1);
         animation-fill-mode: forwards;
         animation-name: P;
@@ -53,7 +53,7 @@
         font-size: 20vw;
         font-weight: bold;
         font-family: 'Archivo Black', sans-serif;
-        animation-duration: 1.2s;
+        animation-duration: 1.7s;
         animation-iteration-count: calc(1);
         animation-fill-mode: forwards;
         animation-name: R;
@@ -72,7 +72,7 @@
         font-size: 20vw;
         font-weight: bold;
         font-family: 'Archivo Black', sans-serif;
-        animation-duration: 1.3s;
+        animation-duration: 1.8s;
         animation-iteration-count: calc(1);
         animation-fill-mode: forwards;
         animation-name: L;
@@ -93,19 +93,24 @@
   }
   
   .topbar{
+    margin-right: 20px;
+    top: 20px;
     position: fixed;
     display:flex; justify-content:  space-between;
-    border: 1px solid bisque;
     width: 100%;
-}
+    }
     .mainmenu{
         position: relative;
         display: flex; justify-content: center;
+        
 }
 ul{
     display: flex;
-    gap: 25px;
+    gap: 50px;
     list-style: none;
+}
+#head{
+    height: 20px;
 }
 
 
