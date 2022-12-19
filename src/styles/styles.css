@@ -1,14 +1,13 @@
 *{
     margin: 0px;
     padding: 0px;
-    width: 1245px;
-    height: 666px;
+   
 }
 
 #opening{
     position:absolute;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: bisque;
     animation-duration: 1.4s;
     animation-iteration-count: calc(1);
@@ -18,10 +17,10 @@
     animation-delay: 0.15s;
 }
 
-@keyframes opening{
+ @keyframes opening{
     from {top: -1100px;}
-    to { top: 0px;}
-}
+    to { top: 0px;} 
+}  
 .hello{
     position: relative;
     top: 90%;
@@ -96,11 +95,17 @@
   .topbar{
     position: fixed;
     display:flex; justify-content:  space-between;
-    border: 1px solid bisque
+    border: 1px solid bisque;
+    width: 100%;
 }
     .mainmenu{
         position: relative;
         display: flex; justify-content: center;
+}
+ul{
+    display: flex;
+    gap: 25px;
+    list-style: none;
 }
 
 
